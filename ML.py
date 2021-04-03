@@ -1,1 +1,2 @@
-print("Hello world")
+x = input("Please type.")
+print(x)
