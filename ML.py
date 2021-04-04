@@ -19,3 +19,5 @@ colors = (0,0,0)
 
 plot = plt.scatter(x_values, y_values, s=area, c=colors, alpha=4)
 plt.show()
+
+# test by Shawn
