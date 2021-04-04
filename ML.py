@@ -13,3 +13,9 @@ x_train = x_train.reshape(-1, 1)
 y_values = [53807, 55217, 55209, 55415, 63100, 63206, 63761, 65766]
 y_train = np.array(y_values, dtype=np.float32)
 y_train = y_train.reshape(-1, 1)
+
+area = np.pi*3
+colors = (0,0,0)
+
+plot = plt.scatter(x_values, y_values, s=area, c=colors, alpha=4)
+plt.show()
