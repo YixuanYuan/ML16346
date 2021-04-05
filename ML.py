@@ -1,11 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
 import torch
+from scipy import stats
 from torch import nn
 from torch.utils.data import DataLoader
 from torchvision import datasets
-from torchvision.transforms import ToTensor, Lambda, Compose
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy import stats
+from torchvision.transforms import Compose, Lambda, ToTensor
 
 x_values = [0, 1, 2, 3, 4, 5, 6, 7]
 x_train = np.array(x_values, dtype=np.float32)
@@ -29,4 +29,4 @@ plt.scatter(x_values, y_values, s=area, c=colors, alpha=1)
 plt.plot(x_values, model)
 plt.show()
 
-# test by Shawn
+print(torch.rand(5,3))
